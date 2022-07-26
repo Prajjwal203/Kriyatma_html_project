@@ -4,6 +4,7 @@
 
 .mt-1r {
     margin-top: 1rem;
+    z-index: -1;
 }
 
 hr.vertical {
@@ -69,6 +70,7 @@ hr.vertical4 {
     position: absolute;
     top: 6.7rem;
     right: 0.5rem;
+    z-index: -1;
 }
 .card-pos2 {
     position: absolute;
@@ -78,4 +80,8 @@ hr.vertical4 {
 
 .card-shadow {
     box-shadow: 0px 0px 8px 0px #888888;
+}
+
+.zOfDrop {
+    z-index: 2;
 }
